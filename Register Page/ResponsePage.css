@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;800&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: -20px;  
+}
+.logo-img{
+    width:200px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.header-links{
+    color: black;
+    text-decoration: none;
+    margin: 0px 18px;
+}
+.header-links:hover{
+    color: rgb(145, 145, 145);
+    transition: 0.2s;
+}
+.profile-icon{
+    width: 1.8rem;
+    cursor: pointer;
+}
+
+
+.response-container{
+    width: 700px;
+    margin: 0px auto;
+    text-align: center;
+    box-shadow: 0px 2px 6px rgb(235, 235, 235) ;
+    border-radius: 20px;
+    padding-top: 14px;
+    margin-bottom: 60px;
+    margin-top: -20px;
+}
+.response-title{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.chat-img{
+    width: 260px;
+    margin: 0 auto;
+}
+.userName{
+    font-size: 30px;
+    margin-top: -30px;
+    font-family: 'Lobster', cursive;
+}
+.para{
+    width: 640px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+.writeProblem{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0px 2px 6px rgb(167, 165, 165) ;
+    margin-top: 24px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+
+
+
+}
+.submit-btn{
+    padding: 9px 36px;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(236,232,239);
+    color: rgb(109,108,108);
+    font-size: 16px;
+    box-shadow: 0px 2px 6px black;
+    /* position: relative;
+    bottom: 50px;
+    left: 40px; */
+    cursor: pointer;
+    margin: 30px 0px;
+    /* margin-bottom: -120px; */
+
+}
+.submit-btn:hover{
+    background-color: rgb(211,197,222);
+    transition: 0.4s;
+}
+.feedback{
+    width: 380px;
+    text-align: center;
+    background-color: rgba(219, 219, 219, 0.842);
+    border-radius: 14px;
+    padding: 14px;
+}
+.fd-img1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    margin-top:-46px;
+    object-fit: cover;
+}
+.person-intro{
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    margin: 54px 0;
+}
+.feedback-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.feedback1{
+    background-color: rgb(168, 168, 168);
+}
+.feedback2{
+    background-color: rgb(196, 196, 110);
+}
